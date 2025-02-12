@@ -1,0 +1,239 @@
+                                                                       TASk-2
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Landing Page
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+            font-family: 'Roboto', sans-serif;
+        }
+  </style>
+ </head>
+ <body class="bg-gray-100 text-gray-800">
+
+
+  <!-- Header -->
+  <header class="bg-white shadow">
+   <div class="container mx-auto px-8 py-4 flex justify-between items-center">
+    <div class="text-2xl font-bold text-gray-800">
+     My Landing Page
+    </div>
+    <nav class="space-x-4">
+     <a class="text-gray-800 hover:text-white hover:bg-blue-500 py-4 px-6 rounded-lg" href="#">
+      Home
+     </a>
+     <a class="text-gray-800 hover:text-white hover:bg-blue-500 py-4 px-6 rounded-lg" href="#">
+      About
+     </a>
+     <a class="text-gray-800 hover:text-white hover:bg-blue-500 py-4 px-6 rounded-lg" href="#">
+      Services
+     </a>
+     <a class="text-gray-800 hover:text-white hover:bg-blue-500 py-4 px-6 rounded-lg" href="#">
+      Contact
+     </a>
+    </nav>
+   </div>
+  </header>
+
+
+  <!-- Hero Section -->
+  <section class="bg-cover bg-center h-screen" style="background-image: url('https://images.pexels.com/photos/2422280/pexels-photo-2422280.jpeg?auto=compress&cs=tinysrgb&w=60000');">
+   <div class="container mx-auto h-full flex items-center justify-center">
+    <div class="text-center b bg-blue-900 p-5 rounded-lg">
+     <h1 class="text-5xl font-bold text-white">
+      Welcome to Our Online Solutions
+     </h1>
+     <p class="text-xl text-white mt-4">
+      We provide the best services for you
+     </p>
+     <a class="mt-6 inline-block bg-white py-2 px-4 rounded text-blue-900 shadow-lg" href="#">
+      Get Started
+     </a>
+    </div>
+   </div>
+  </section>
+
+
+  <!-- Features Section -->
+  <section class="py-12 bg-gray-200">
+   <div class="container mx-auto px-6">
+    <h2 class="text-3xl font-bold text-center text-gray-800">
+     Our Features
+    </h2>
+    <div class="mt-8 grid grid-cols-1 md:grid-cols-3 gap-8">
+     <div class="bg-white p-6 rounded-lg shadow-lg text-center">
+      <i class="fas fa-cogs text-4xl text-blue-500">
+      </i>
+      <h3 class="text-xl font-bold mt-4">
+        Effortless Integration
+      </h3>
+      <p class="mt-2 text-gray-600">
+        Highlight how easily your solutions integrate with existing business systems, allowing for a smooth transition and immediate results.
+      </p>
+     </div>
+     <div class="bg-white p-6 rounded-lg shadow-lg text-center">
+      <i class="fas fa-bolt text-4xl text-blue-500">
+      </i>
+      <h3 class="text-xl font-bold mt-4">
+        Enhanced Security
+      </h3>
+      <p class="mt-2 text-gray-600">
+        Emphasize the advanced security measures in place to protect sensitive data and ensure safe business transactions.
+      </p>
+     </div>
+     <div class="bg-white p-6 rounded-lg shadow-lg text-center">
+      <i class="fas fa-heart text-4xl text-blue-500">
+      </i>
+      <h3 class="text-xl font-bold mt-4">
+        Seamless Scalability
+      </h3>
+      <p class="mt-2 text-gray-600">
+        Showcase the capability to expand and adapt solutions as the business grows, offering long-term flexibility.
+      </p>
+     </div>
+    </div>
+   </div>
+  </section>
+
+
+  <!-- Services Section -->
+  <section class="py-12">
+   <div class="container mx-auto px-6">
+    <h2 class="text-3xl font-bold text-center text-gray-800">
+     Our Services
+    </h2>
+    <div class="mt-8 grid grid-cols-1 md:grid-cols-3 gap-8">
+     <div class="bg-white p-6 rounded-lg shadow-lg text-center">
+      <img alt="Service 1 image description" class="w-full h-48 object-cover rounded-t-lg" height="200" src="https://www.braintechnosys.com/blog/wp-content/uploads/2022/03/app-developers-in-yamunanagar.png" width="300"/>
+      <h3 class="text-xl font-bold mt-4">
+       Mobile App Development
+      </h3>
+      <p class="mt-2 text-gray-600">
+        Mobile application development is the process of creating software applications that run on mobile devices, like smartphones and tablets. It involves designing, building, testing, and deploying apps for platforms such as iOS and Android.
+      </p>
+     </div>
+     <div class="bg-white p-6 rounded-lg shadow-lg text-center">
+      <img alt="Service 2 image description" class="w-full h-48 object-cover rounded-t-lg" height="200" src="https://www.sdworx.de/sites/default/files/2023-03/Managed%20Services%20vs%20Coud%20Computing_1200x800.jpg" width="300"/>
+      <h3 class="text-xl font-bold mt-4">
+        Cloud Services
+      </h3>
+      <p class="mt-2 text-gray-600">
+        Cloud Services encompass a variety of solutions designed to help businesses leverage cloud technology for greater flexibility, scalability, and cost efficiency.
+      </p>
+     </div>
+     <div class="bg-white p-6 rounded-lg shadow-lg text-center">
+      <img alt="Service 3 image description" class="w-full h-48 object-cover rounded-t-lg" height="200" src="https://www.threatadvice.com/hubfs/IT-Support-VS-IT-Consulting.jpg" width="300"/>
+      <h3 class="text-xl font-bold mt-4">
+        IT Consulting & Support
+      </h3>
+      <p class="mt-2 text-gray-600">
+        IT Consulting & Support services are focused on helping businesses optimize their technology infrastructure, solve technical challenges, and maintain smooth IT operations.
+      </p>
+     </div>
+    </div>
+   </div>
+  </section>
+
+
+  <!-- Testimonials Section -->
+  <section class="py-12 bg-gray-200">
+   <div class="container mx-auto px-6">
+    <h2 class="text-3xl font-bold text-center text-gray-800">
+     What Our Clients Say
+    </h2>
+    <div class="mt-8 grid grid-cols-1 md:grid-cols-3 gap-8">
+     <div class="bg-white p-6 rounded-lg shadow-lg text-center">
+      <img alt="Client 1 image description" class="w-24 h-24 rounded-full mx-auto" height="100" src="https://storage.googleapis.com/a1aa/image/IgIIOWO0hboqFx1jBVx29WgFfiOvstJ5sxDHrkjPJibrfeXnA.jpg" width="100"/>
+      <h3 class="text-xl font-bold mt-4">
+        Lisa, CEO of XYZ Corp
+       </h3>
+       <p class="mt-2 text-gray-600">
+        "Their business solutions helped us streamline our processes and improve efficiency significantly. Highly recommended!"
+       </p>
+       
+     </div>
+     <div class="bg-white p-6 rounded-lg shadow-lg text-center">
+      <img alt="Client 2 image description" class="w-24 h-24 rounded-full mx-auto" height="100" src="https://storage.googleapis.com/a1aa/image/oubzGWdn80LGOVPgBBP2e3NwMzxToFXbLWR7fZhCgjaZf9XnA.jpg" width="100"/>
+      <h3 class="text-xl font-bold mt-4">Sophia, Marketing Director at Innovate Inc.</h3>
+      <p class="mt-2 text-gray-600">"This team truly understands our needs and challenges. Their solutions have been instrumental in driving our latest campaigns." </p>
+     </div>
+     <div class="bg-white p-6 rounded-lg shadow-lg text-center">
+      <img alt="Client 3 image description" class="w-24 h-24 rounded-full mx-auto" height="100" src="https://storage.googleapis.com/a1aa/image/PNQhx5df3UWgGKli0XOXN1eTfxpKbNOMSRg1Ztt3xLrwe7vOB.jpg" width="100"/>
+      <h3 class="text-xl font-bold mt-4">James, Operations Manager at ABC Ltd.</h3>
+      <p class="mt-2 text-gray-600">"The insights and tools provided were game-changing for our team's productivity. We've seen measurable growth since partnering with them!"</p>
+     </div>
+    </div>
+   </div>
+  </section>
+
+
+  <!-- Contact Section -->
+  <section class="py-12 ">
+   <div class="container mx-auto px-6 ">
+    <h2 class="text-3xl font-bold text-center text-gray-800">
+     Contact Us
+    </h2>
+    <div class="mt-8 max-w-lg mx-auto border-2 border-black rounded-lg shadow-lg">
+     <form action="#" class="bg-white p-6 rounded-lg " method="POST">
+      <div class="mb-4">
+       <label class="block text-gray-700" for="name">
+        Name
+       </label>
+       <input class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" id="name" name="name" type="text"/>
+      </div>
+      <div class="mb-4">
+       <label class="block text-gray-700" for="email">
+        Email
+       </label>
+       <input class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" id="email" name="email" type="email"/>
+      </div>
+      <div class="mb-4">
+       <label class="block text-gray-700" for="message">
+        Message
+       </label>
+       <textarea class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" id="message" name="message" rows="4"></textarea>
+      </div>
+      <button class="w-full bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600" type="submit">
+       Send Message
+      </button>
+     </form>
+    </div>
+   </div>
+  </section>
+
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 py-6">
+   <div class="container mx-auto px-6 text-center text-white">
+    <p>
+     © 2023 My Landing Page. All rights reserved.
+    </p>
+    <div class="mt-4 space-x-4">
+     <a class="text-white hover:text-gray-400" href="#">
+      <i class="fab fa-facebook-f">
+      </i>
+     </a>
+     <a class="text-white hover:text-gray-400" href="#">
+      <i class="fab fa-twitter">
+      </i>
+     </a>
+     <a class="text-white hover:text-gray-400" href="#">
+      <i class="fab fa-instagram">
+      </i>
+     </a>
+     <a class="text-white hover:text-gray-400" href="#">
+      <i class="fab fa-linkedin-in">
+      </i>
+     </a>
+    </div>
+   </div>
+  </footer>
+ </body>
+</html>
